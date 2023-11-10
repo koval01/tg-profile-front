@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Yaroslav Koval">
+        <meta name="generator" content="Flask">
+        <title>Profile title</title>
+        <link rel="canonical" href="https://koval.page">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+        <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+        <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+        <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+        <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+        <meta name="theme-color" content="#35ace1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="assets/css/profile.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="mt-4 text-center no-select">
+                    <div class="rounded-circle mx-auto d-block profile-image" style="background-image:url(assets/images/demo_/avatar.webp)"></div>
+                    <div class="pt-2 d-flex justify-content-center">
+                        <div>
+                            <p class="profile-name mb-0">Yaroslav Koval</p>
+                        </div>
+                        <div class="mx-2 mt-1 profile-badge" style="background-image:url(assets/images/demo_/badge.webp)"></div>
+                    </div>
+                    <span class="text-muted profile-status">last seen recently</span>
+                </div>
+                <div class="row px-2 pt-3 head-buttons no-select">
+                    <div class="col-4">
+                        <div class="profile-top-button message-button">
+                            <div class="icon-button"></div>
+                            <p>Message</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="profile-top-button call-button">
+                            <div class="icon-button"></div>
+                            <p>Call</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="profile-top-button more-button">
+                            <div class="icon-button"></div>
+                            <p>More</p>
+                        </div>
+                    </div>
+                </div>
+                <ol class="list-group mt-3">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto bio-field p-field">
+                            <div class="field-text">
+                                <div class="no-select">bio</div>
+                                <span>💻 20 y.o. back-end developer from Germany</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto phone-field p-field d-flex">
+                            <div class="field-text">
+                                <div class="no-select">phone</div>
+                                <span>+44 7706 565815</span>
+                            </div>
+                            <div class="badge-field copy-button"></div>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto username-field p-field d-flex">
+                            <div class="field-text">
+                                <div class="no-select">username</div>
+                                <span>@KovalYRS</span>
+                            </div>
+                            <div class="badge-field copy-button"></div>
+                        </div>
+                    </li>
+                </ol>
+                <div class="mt-4 d-flex justify-content-center no-select">
+                    <div class="px-3">
+                        <a class="social-link" href="https://x.com/pagekoval" target="_blank" style="background-image:url(assets/images/socials/x.webp)"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="fixed-bottom px-5">
+            <div class="mt-3">
+                <p class="text-center">Developed by Yaroslav Koval. This page is not the property of Telegram FZ LLC or Telegram Messenger Inc. and does not claim to be an official source.</p>
+            </div>
+        </footer>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
